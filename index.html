@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Cronometro</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+
+    <div class="time">
+      <div  id="timer">
+        <span class="minutes">00</span>
+        <span>:</span>
+        <span class="seconds">00</span>
+      </div>
+
+      <div id="controls">
+        <button class="play">
+          <img src="icons/play.svg" alt="">
+        </button>
+
+        <button class="stop">
+          <img src="icons/stop.svg" alt="">
+        </button>
+
+        <button class="increaseTime">
+          <img src="icons/increaseTime.svg" alt="">
+        </button>
+
+        <button class="decreaseTime">
+          <img src="icons/decreaseTime.svg" alt="">
+        </button>
+      </div>
+    </div>
+
+    <div id="sounds">
+      <button class="soundSimbol soundForest">
+        <img src="icons/soundForest.svg" alt="">
+      </button>
+      
+      <button class="soundRain">
+        <img src="icons/soundRain.svg" alt="">
+      </button>
+
+      <button class="soundSimbol soundStore">
+        <img src="icons/soundStore.svg" alt="">
+      </button>
+
+      <button class="soundSimbol soundFire">
+        <img src="icons/soundFire.svg" alt="">
+      </button>
+    </div>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
