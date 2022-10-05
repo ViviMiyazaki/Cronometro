@@ -34,6 +34,7 @@ main {
   align-items: center;
 
   color:#323238;
+  max-height: 200px;
 }
 
 button {
@@ -47,6 +48,7 @@ button {
   display: flex;
   gap: 4.0rem;
 
+  max-height: 200px;
 }
 
 #controls img {
@@ -59,6 +61,8 @@ button {
   grid-template-rows: 1fr 1fr;
   column-gap: 3.2rem;
   row-gap: 3.2rem;
+
+  max-height: 200px;
   
 }
 
@@ -70,18 +74,18 @@ button {
 }
 
 .soundSimbol:hover {
-  background-color: rgb(138, 185, 185);
+  background-color: #79a9b8;
   transition: 7ms;
 }
 
 .soundRain {
   border-radius: 2.4rem;
   padding: 4.6rem;
-  background: #02799D;
+  background: #0b86ac;
 }
 
 .soundRain:hover {
-  background-color: #09576e;
+  background-color: #166881;
   transition: 7ms;
 }
 
