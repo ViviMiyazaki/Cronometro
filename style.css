@@ -8,6 +8,19 @@
   font-size: 62.5%;
 }
 
+.hide {
+  display: none;
+}
+
+body[dark]{
+  background-color: black;
+  color: #E5E5E5;
+}
+
+.time [dark] {
+  color:#d4d4e6;
+}
+
 body {
   height: 100vh;
   width: 100vw;
@@ -20,6 +33,16 @@ body {
   font-family: 'roboto';
   font-size: 12.6rem;
   font-weight: 500;
+}
+
+header {
+  display: grid;
+  align-self: flex-start;
+  justify-self: right;
+}
+
+header input {
+  display: none;
 }
 
 main {
@@ -66,7 +89,7 @@ button {
   
 }
 
-.soundForest, .soundStore, .soundFire {
+.soundForest, .soundCoffee, .soundFire, .soundRain {
   border-radius: 2.4rem;
   padding: 4.6rem;
   background: #bdbdc9;
@@ -78,13 +101,13 @@ button {
   transition: 7ms;
 }
 
-.soundRain {
+.selected {
   border-radius: 2.4rem;
   padding: 4.6rem;
   background: #0b86ac;
 }
 
-.soundRain:hover {
+.selected:hover {
   background-color: #166881;
   transition: 7ms;
 }

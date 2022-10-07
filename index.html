@@ -14,6 +14,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <header>
+      <label for="input-dark-mode">
+        <a class="buttonLight hide"><img src="icons/light.svg" alt=""></a>
+        <a class="buttonDark"><img src="icons/dark.svg" alt=""></a>
+      </label>
+      <input type="checkbox" id="input-dark-mode">
+
+  </header>
   <main>
 
     <div class="time">
@@ -43,24 +52,28 @@
     </div>
 
     <div id="sounds">
+      <audio src="sons/Floresta.wav" class="forest"></audio>
       <button class="soundSimbol soundForest">
         <img src="icons/soundForest.svg" alt="">
       </button>
       
-      <button class="soundRain">
+      <audio src="sons/Chuva.wav" class="rain"></audio>
+      <button class="soundSimbol soundRain">
         <img src="icons/soundRain.svg" alt="">
       </button>
 
-      <button class="soundSimbol soundStore">
+      <audio src="sons/Cafeteria.wav" class="coffee"></audio>
+      <button class="soundSimbol soundCoffee">
         <img src="icons/soundStore.svg" alt="">
       </button>
 
+      <audio src="sons/Lareira.wav" class="fire"></audio>
       <button class="soundSimbol soundFire">
         <img src="icons/soundFire.svg" alt="">
       </button>
     </div>
   </main>
   
-  <script src="./script.js"></script>
+  <script src="./js/script.js" type="module"></script>
 </body>
 </html>
